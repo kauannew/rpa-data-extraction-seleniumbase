@@ -69,5 +69,6 @@ if __name__ == "__main__":
             df_final.to_excel(CAMINHO_FINAL, index=False)
 
             print(f">> Sucesso! {len(df_final)} linhas extraídas e salvas em: {CAMINHO_FINAL}")
+
         except Exception as e:
             print(f'Deu erro: {e}')
