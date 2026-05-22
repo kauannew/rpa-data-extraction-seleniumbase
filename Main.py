@@ -6,10 +6,10 @@ import os
 #    Variaveis      #
 #===================#
 
-PASTA_DESTINO = r"C:\Users\kaua\OneDrive\Documentos\rpa-data-extraction-seleniumbase\Download"
+PASTA_DESTINO = "./Download"
 if not os.path.exists(PASTA_DESTINO):
     os.makedirs(PASTA_DESTINO)
-    
+
 NOME_ARQUIVO = "DataHockey.xlsx"
 CAMINHO_FINAL = os.path.join(PASTA_DESTINO, NOME_ARQUIVO)
 
